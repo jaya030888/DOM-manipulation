@@ -15,19 +15,20 @@ body{
 
     input, button {
       padding: 8px;
-      margin-top: 10px;
+      margin: 20px auto;
     }
 
     h1{
         font-size: 22px;
         text-decoration: underline;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
 
     p{
         font-size: 20px;
         color: rgb(55, 43, 226);
         font-weight: bold;
+        margin: 20px auto;
     }
 
 main{
@@ -39,6 +40,7 @@ main{
     height: 60vh;
     width:900px
 }
+
 
 
 
