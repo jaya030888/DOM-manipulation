@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Interaction Example</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+  <main>
+    <header>
+      <h1> Assignment Dynamic Text Update Using HTML Input and DOM Manipulation</h1>
+    </header>
+
+    <section>
+      <p id="para">Your text will appear here.</p>
+
+      <input type="text" id="Input" placeholder="Enter text here">
+      <br>
+
+      <button id="btn">Update Text</button>
+    </section>
+  </main>
+
+  <script>
+    const Input = document.getElementById("Input");
+    const para = document.getElementById("para");
+    const button = document.getElementById("btn");
+
+    button.addEventListener("click", function () {
+      para.textContent = Input.value;
+    });
+  </script>
+
+</body>
+</html>
